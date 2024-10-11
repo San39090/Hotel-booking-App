@@ -6,6 +6,6 @@ export default function PlaceImg({place,index=0,className=null}){
         className='object-cover';
     }
     return (
-        <img className="object-cover" src={'http://localhost:4000/uploads/'+place.photos[index]} alt="" />
+        <img className="object-cover" src={'https://hotel-booking-app-czf3.onrender.com/uploads/'+place.photos[index]} alt="" />
     );
 }
