@@ -25,7 +25,7 @@ app.use(cors({
     origin:'http://localhost:5173'
 
 }));
-mongoose.connect(process.env.MONGO_URL);
+mongoose.connect('mongodb+srv://santoshmandala951:vGIakvU2UoXGk2Dh@cluster0.cwfnm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
 
 function getUserDataFromToken(req){
     return new Promise((resolve,reject)=>{
