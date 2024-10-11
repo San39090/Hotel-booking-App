@@ -51,7 +51,7 @@ export default function PlacePage() {
           {place?.photos?.length > 0 &&
             place.photos.map((photo) => (
               <div>
-                <img src={"http://localhost:4000/uploads/" + photo} alt="" />
+                <img src={"https://hotel-booking-app-czf3.onrender.com/uploads/" + photo} alt="" />
               </div>
             ))}
         </div>
