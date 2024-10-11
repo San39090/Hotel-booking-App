@@ -22,7 +22,7 @@ app.use(cookieParser());
 app.use('/uploads',express.static(path.join(__dirname,'uploads')));
 app.use(cors({
     credentials:true,
-    origin:'http://localhost:5173'
+    origin:'https://hotel-booking-app-frontend-6r53.onrender.com'
 
 }));
 mongoose.connect('mongodb+srv://santoshmandala951:vGIakvU2UoXGk2Dh@cluster0.cwfnm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
