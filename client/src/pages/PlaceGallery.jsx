@@ -33,7 +33,7 @@ export default function PlaceGallery({ place }) {
           {place?.photos?.length > 0 &&
             place.photos.map((photo) => (
               <div>
-                <img src={"http://localhost:4000/uploads/" + photo} alt="" />
+                <img src={"https://hotel-booking-app-czf3.onrender.com/uploads/" + photo} alt="" />
               </div>
             ))}
         </div>
@@ -48,7 +48,7 @@ export default function PlaceGallery({ place }) {
             <div>
               <img
                 className="aspect-square object-cover"
-                src={"http://localhost:4000/uploads/" + place.photos[0]}
+                src={"https://hotel-booking-app-czf3.onrender.com/uploads/" + place.photos[0]}
                 alt=""
               />
             </div>
@@ -58,7 +58,7 @@ export default function PlaceGallery({ place }) {
           {place.photos?.[1] && (
             <img
               className="aspect-square object-cover"
-              src={"http://localhost:4000/uploads/" + place.photos[1]}
+              src={"https://hotel-booking-app-czf3.onrender.com/uploads/" + place.photos[1]}
               alt=""
             />
           )}
@@ -66,7 +66,7 @@ export default function PlaceGallery({ place }) {
             {place.photos?.[2] && (
               <img
                 className="aspect-square object-cover relative top-2"
-                src={"http://localhost:4000/uploads/" + place.photos[2]}
+                src={"https://hotel-booking-app-czf3.onrender.com/uploads/" + place.photos[2]}
                 alt=""
               />
             )}
